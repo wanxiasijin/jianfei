@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Dialog_title_default" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/dialog_title_textcolor_default</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Dialog_positive_default" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/green_theam</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Dialog_neutral_default" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/green_theam</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Dialog_neutral2_default" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/dialog_neutral2_textcolor_default</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Dialog_negative_gray" parent="Dialog_negative_default">
+        <item name="android:textColor">#C3C3C3</item>
+    </style>
+
+    <style name="Dialog_negative_default" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/green_theam</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Dialog_message_default" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/dialog_title_textcolor_grey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">28dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">28dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Dialog_title_list" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/black_sd1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Dialog_General" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_inset_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Dialog_Progress" parent="android:Theme.Holo.Light.Dialog"/>
+
+    <!--wheel-->
+    <style name="Dialog_wheelText_selected" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/black_sd</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="Dialog_wheelText_unselected" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#585858</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="Dialog_List_Text" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/black_sd</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

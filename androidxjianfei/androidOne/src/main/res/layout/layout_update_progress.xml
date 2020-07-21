@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_sd"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/px30"
+        android:text="升级中"
+        android:textColor="@color/black_sd1"
+        android:textSize="16dp" />
+
+    <com.warkiz.widget.IndicatorStayLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/px30"
+        android:paddingLeft="@dimen/px20"
+        android:paddingRight="@dimen/px20"
+        android:paddingTop="@dimen/px30">
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/indicatorbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:isb_indicator_color="@color/green_theam"
+            app:isb_indicator_text_color="@color/white_sd"
+            app:isb_max="100"
+            app:isb_min="0"
+            app:isb_progress="0.0"
+            app:isb_progress_value_float="true"
+            app:isb_show_indicator="rectangle"
+            app:isb_show_tick_marks_type="none"
+            app:isb_show_tick_texts="true"
+            app:isb_thumb_color="@color/green_theam"
+            app:isb_thumb_drawable="@mipmap/ic_launcher"
+            app:isb_thumb_size="18dp"
+            app:isb_thumb_text_color="@color/green_theam"
+            app:isb_tick_marks_color="@color/green_theam"
+            app:isb_tick_texts_color="@color/green_theam"
+            app:isb_ticks_count="2"
+            app:isb_track_background_color="@color/gray_sd"
+            app:isb_track_background_size="2dp"
+            app:isb_track_progress_color="@color/green_theam"
+            app:isb_track_progress_size="4dp" />
+    </com.warkiz.widget.IndicatorStayLayout>
+
+    <TextView
+        android:id="@+id/download_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="@dimen/px30"
+        android:text="进入后台下载"
+        android:textColor="@color/green_theam"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+</LinearLayout>

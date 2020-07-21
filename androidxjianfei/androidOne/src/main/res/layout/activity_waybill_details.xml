@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/toolbar_sub" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_sd"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/px30"
+                        android:paddingLeft="@dimen/px40"
+                        android:paddingTop="@dimen/px30">
+
+                        <TextView
+                            android:id="@+id/tv_waybill_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="联单编号:"
+                            android:textColor="@color/black_sd1"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/tv_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center"
+                            android:paddingBottom="4dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="4dp"
+                            android:text=""
+                            android:textColor="@color/white_sd"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/px40"
+                        android:background="@color/background_light" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_sd"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/px30"
+                        android:paddingLeft="@dimen/px40"
+                        android:paddingTop="@dimen/px30">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="废弃物种类:"
+                            android:textColor="@color/black_sd1"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/tv_waste_types"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:text="工程渣土"
+                            android:textColor="@color/black_sd1"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/px40"
+                        android:background="@color/background_light" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_sd"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/px30"
+                        android:paddingLeft="@dimen/px40"
+                        android:paddingTop="@dimen/px30">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="装载量:"
+                            android:textColor="@color/black_sd1"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/tv_loading_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:text="立方/次"
+                            android:textColor="@color/black_sd1"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/px40"
+                        android:background="@color/background_light" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_sd"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/px30"
+                        android:paddingLeft="@dimen/px40"
+                        android:paddingTop="@dimen/px30">
+
+                        <TextView
+                            android:id="@+id/tv_out_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="出场时间:"
+                            android:textColor="@color/black_sd2"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/tv_number_plate2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="14dp"
+                            android:background="@drawable/bg_coners_gray"
+                            android:drawablePadding="@dimen/px12"
+                            android:paddingBottom="@dimen/px12"
+                            android:paddingLeft="@dimen/px20"
+                            android:paddingRight="@dimen/px20"
+                            android:paddingTop="@dimen/px12"
+                            android:text=""
+                            android:textColor="@color/black_sd1"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/waybill_details_start_end_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" />
+
+                    <include
+                        android:id="@+id/layout_soil"
+                        layout="@layout/layout_soil_quality"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone" />
+
+                    <include
+                        layout="@layout/waybill_details_project_information_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" />
+
+                    <include
+                        layout="@layout/waybill_details_date_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/px60"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/white_sd"
+                android:clickable="true"
+                android:enabled="true"
+                android:gravity="center"
+                android:padding="@dimen/px30"
+                android:text="@string/bill_detail_billGiveUp"
+                android:textColor="@color/black_sd1"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/btn_submit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/green_theam"
+                android:gravity="center"
+                android:padding="@dimen/px30"
+                android:text="@string/bill_detail_billSure"
+                android:textColor="@color/white_sd"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_sd"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/px22"
+    android:paddingTop="@dimen/px22">
+
+    <com.chenganrt.smartSupervision.business.electronic.ui.EditTextDel
+        android:id="@+id/ed_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px20"
+        android:layout_marginRight="@dimen/px20"
+        android:layout_weight="1"
+        android:background="@drawable/bg_coners_gray3"
+        android:drawableLeft="@drawable/nav_btn_search_pressed"
+        android:drawablePadding="@dimen/px16"
+        android:gravity="center_vertical"
+        android:hint="请输入车牌号码"
+        android:textColor="@color/black_sd1"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingBottom="@dimen/px20"
+        android:paddingLeft="@dimen/px20"
+        android:paddingRight="@dimen/px20"
+        android:paddingTop="@dimen/px20"
+        android:text=""
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_can"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/px20"
+        android:paddingLeft="@dimen/px30"
+        android:paddingRight="@dimen/px30"
+        android:paddingTop="@dimen/px20"
+        android:text="取消"
+        android:textColor="@color/green_theam"
+        android:textSize="14dp" />
+
+</LinearLayout>

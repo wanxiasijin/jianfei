@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/gray_sd1"
+        android:layout_height="1dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="废弃物供应"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    tools:text="30"
+                    android:textColor="@color/green_theem3"
+                    android:textSize="12sp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/tv11"
+                    android:layout_toLeftOf="@+id/tv1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="|"
+                    android:id="@+id/tv1"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="综合利用产品供应"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    tools:text="6711111111"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/green_theem3"
+                    android:textSize="12sp"
+                    android:id="@+id/tv12"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="废弃物需求"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    tools:text="50"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/green_theem3"
+                    android:textSize="12sp"
+                    android:id="@+id/tv13"
+                    android:layout_toLeftOf="@+id/tv2"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="|"
+                    android:id="@+id/tv2"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.1"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="综合利用产品需求"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    tools:text="28"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/green_theem3"
+                    android:textSize="12sp"
+                    android:id="@+id/tv14"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="查看详情"
+            android:id="@+id/tv_check_details"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

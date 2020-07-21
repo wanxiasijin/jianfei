@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="view_bg_color">#CECECE</color>
+    <color name="bg_color">#f3f3f3</color>
+    <color name="head_bg_color">#EB008F</color>
+    <color name="bottom_line_color">#c4c7cc</color>
+    <color name="bottom_txt_select">#24AD6E</color>
+    <color name="bottom_txt_normal">#cccccc</color>
+
+    <color name="red">#ff0101</color>
+    <color name="blue">#0963ff</color>
+    <color name="bg">#e5e5e5</color>
+
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#23b781</color>
+    <color name="colorPrimaryDark">#23b781</color>
+    <color name="colorAccent">#23b781</color>
+    <color name="bg_theme">#23b781</color>
+    <color name="bg_theme_pressed">#009b66</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half">#40000000</color>
+    <color name="background_color">#F1F4F8</color>
+    <color name="text_39">#393939</color>
+    <color name="text_63">#636363</color>
+    <color name="text_b2">#b2b2b2</color>
+    <color name="transparent_10">#F1F4F8</color>
+    <color name="text_50">#505050</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="line_color">#F1F4F8</color>
+    <color name="line_grey">#DDDDDD</color>
+    <color name="bg_list_item_pressed">#d9d9d9</color>
+    <color name="text_3384d5">#3384d5</color>
+    <color name="text_backcolor">#f79e3e</color>
+    <color name="text_backcolor_2d">#2dbeb2</color>
+    <color name="text_backcolor_f7">#f7653e</color>
+    <color name="text_backcolor_1a">#1ac170</color>
+
+    <color name="text_grey_black">#333333</color>
+    <color name="bg_dialog_btn_pressed">#BFBFC1</color>
+    <color name="text_tab_pressed">#EF6B5A</color>
+    <color name="text_51">#515151</color>
+
+    <color name="transparent_80">#80000000</color>
+
+    <!--base color-->
+    <color name="background_light">#ecedf1</color>
+    <color name="black_light">#312E35</color>
+    <color name="sd_text_value">#555555</color>
+    <color name="translucent_background">#00000000</color>
+
+    <!--theam-->
+    <color name="green_theam">#23b781</color>
+    <color name="green_theam1">#83E3C0</color>
+    <color name="green_theam2">#00a468</color>
+    <color name="green_theem3">#17B56C</color>
+
+    <!--brown-->
+    <color name="brown_sd">#AE845E</color>
+
+    <!--black-->
+    <color name="black_sd">#000000</color>
+    <color name="black_loading">#88000000</color>
+    <color name="black_sd1">#333333</color>
+    <color name="black_sd2">#999999</color>
+    <color name="black_sd3">#393939</color>
+    <color name="black_sd4">#666666</color>
+
+    <!--white-->
+    <color name="white_sd">#ffffff</color>
+
+    <!--blue-->
+    <color name="blue_sd">#4BA5FB</color>
+
+    <!--orange-->
+    <color name="orange_sd">#F99931</color>
+    <color name="orange_item">#E5AC23</color>
+
+    <!--gray-->
+    <color name="gray_sd">#E5E5E5</color>
+    <color name="gray_sd1">#C7C7C7</color>
+    <color name="gray_sd2">#f8f8f8</color>
+    <color name="gray_sd3">#F2F2F2</color>
+    <color name="gray_sd4">#F0F0F0</color>
+    <color name="gray_sd5">#F1F4F8</color>
+    <color name="gray_sd6">#F6F6F6</color>
+    <color name="gray_sd7">#BFBFBF</color>
+
+    <!--red-->
+    <color name="red_sd">#FF0000</color>
+    <color name="red_sd1">#FF2C2C</color>
+    <color name="red_sd2">#FF4343</color>
+    <color name="red_sd3">#E4152B</color>
+
+    <!--weiget-->
+    <color name="dialog_bg_transparent">#00111111</color>
+    <color name="dialog_title_textcolor_default">#60B8FF</color>
+    <color name="dialog_positive_textcolor_default">#007aff</color>
+    <color name="dialog_neutral_textcolor_default">#007aff</color>
+    <color name="dialog_neutral2_textcolor_default">#fc4529</color>
+    <color name="dialog_negative_textcolor_default">#007aff</color>
+    <color name="dialog_title_textcolor_grey">#555555</color>
+
+
+    <color name="color_f6">#f6f6f6</color>
+
+    <!--pickerview-->
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="gray_b0000000">#00000000</color>
+
+    <color name="refresh_header">#f5f5f5</color>
+
+    <!--filter-->
+    <color name="color_e1e1e1">#e1e1e1</color>
+    <color name="color_f1f1f1">#F1F1F1</color>
+    <color name="color_f2f2f2">#F2F2F2</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_e8e8e8">#E8E8E8</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_dfdfdf">#dfdfdf</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_66000000">#66000000</color>
+    <color name="color_00000050">#70000000</color>
+    <color name="color_7A9BCC">#7A9BCC</color>
+    <color name="color_EBF3FE">#EBF3FE</color>
+    <color name="color_FBE9E7">#FBE9E7</color>
+    <color name="color_E29076">#E29076</color>
+    <color name="color_E1F8E0">#E1F8E0</color>
+    <color name="color_75AE75">#75AE75</color>
+    <color name="color_E5E9E8">#E5E9E8</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_7e7e7e">#7E7E7E</color>
+    <color name="color_6E6F6F">#6E6F6F</color>
+    <color name="color_FF6F00">#FF6F00</color>
+    <color name="color_B8B8B8">#B8B8B8</color>
+    <color name="color_e3ecf6">#E3ECF6</color>
+    <color name="color_f5f5f6">#f5f5f6</color>
+    <color name="color_00000060">#99000000</color>
+    <color name="color_main">#D61939</color>
+    <color name="color_main_30">#4cD61939</color>
+    <color name="color_home_header">#FE5A59</color>
+    <color name="color_default_text">@color/color_333333</color>
+    <color name="color_default_divide_line">@color/color_e6e6e6</color>
+
+    <color name="search_label_color">#EFEFEF</color>
+    <color name="exchange_area">#C6BFBF</color>
+
+</resources>

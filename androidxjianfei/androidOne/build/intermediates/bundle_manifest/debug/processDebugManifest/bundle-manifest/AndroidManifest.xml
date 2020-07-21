@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chenganrt.smartSupervision"
+    android:versionCode="1"
+    android:versionName="1.0_2020-07-21 14:29:42" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <permission
+        android:name="com.chenganrt.smartSupervision.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Required -->
+    <uses-permission android:name="com.chenganrt.smartSupervision.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="com.chenganrt.smartSupervision.business.app.BaseApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.splash.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashActivityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.main.MainActivity"
+            android:configChanges="keyboardHidden|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.main.MainAppActivity"
+            android:configChanges="keyboardHidden|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.exchange.entry.ExchangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.home.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.home.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.personal.PersonalCenterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Green_AppTheme" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.personal.RecommendedShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.personal.MoreSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.personal.AboutMeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.personal.ForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.personal.UserDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.personal.UserFeedbackActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 电子联单 -->
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.ElectornicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.AnalyseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.BillDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.BillExcepActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.RepairActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.RepairAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.SoilQualityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.VehicleOptActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.WaybillSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 土方交换 -->
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.exchange.published.PublishedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.exchange.publish.PublishActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.exchange.filter.FilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.exchange.collect.CollectedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.exchange.detail.InfoDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 登陆 -->
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.login.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.login.RegisterCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.login.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.login.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.login.AgreementActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 百度地图 -->
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.electronic.activity.TrackShowActivity"
+            android:theme="@style/MyActionBar" />
+        <activity
+            android:name="com.chenganrt.smartSupervision.business.home.MatchingMessageActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 集成alipay begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 集成alipay end -->
+
+
+        <!-- 版本更新服务 -->
+        <service android:name="com.chenganrt.smartSupervision.utils.VersionUpdateService" />
+
+        <receiver
+            android:name="com.chenganrt.smartSupervision.business.app.JPushReceiver"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- Required 用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!-- Required 用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required 用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="com.chenganrt.smartSupervision" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.chenganrt.smartSupervision" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.chenganrt.smartSupervision" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <!-- 测试AppKey -->
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="0c34fc18780c45685d21ceba" />
+
+        <!-- baidu map -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="5571EljbgcrRc7XFAH1w9hfpjvSMEAFj" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <provider
+            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:authorities="com.chenganrt.smartSupervision.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+        <activity
+            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+        <activity
+            android:name="activity.UpdateAppActivity"
+            android:theme="@style/DialogActivityTheme" />
+
+        <service android:name="util.UpdateAppService" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.chenganrt.smartSupervision.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/update_file_paths" />
+        </provider>
+        <provider
+            android:name="com.just.agentweb.AgentWebFileProvider"
+            android:authorities="com.chenganrt.smartSupervision.AgentWebFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/web_files_public" />
+        </provider>
+
+        <activity
+            android:name="com.just.agentweb.ActionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="standard"
+            android:theme="@style/actionActivity"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity> <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" /> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.chenganrt.smartSupervision" />
+            </intent-filter>
+        </service> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+        <provider
+            android:name="cn.jpush.android.service.DataProvider"
+            android:authorities="com.chenganrt.smartSupervision.DataProvider"
+            android:exported="false" /> <!-- since 3.1.0 Required SDK 核心功能 -->
+        <provider
+            android:name="cn.jpush.android.service.DownloadProvider"
+            android:authorities="com.chenganrt.smartSupervision.DownloadProvider"
+            android:exported="true" />
+
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+        <service
+            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+            android:process=":filedownloader" />
+    </application>
+
+</manifest>

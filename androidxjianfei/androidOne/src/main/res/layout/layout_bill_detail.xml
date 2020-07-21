@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar_sub" />
+
+    <fragment
+        android:id="@+id/fragment_normal"
+        android:name="com.chenganrt.smartSupervision.business.electronic.bill.NormalBillFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/fragment_edit"
+        android:name="com.chenganrt.smartSupervision.business.electronic.bill.EditBillFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/fragment_driver"
+        android:name="com.chenganrt.smartSupervision.business.electronic.bill.DriverBillFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/fragment_empty"
+        android:name="com.chenganrt.smartSupervision.business.electronic.bill.EmptyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

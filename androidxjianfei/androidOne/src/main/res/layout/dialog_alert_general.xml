@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_general_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/Dialog_title_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/title_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/abc_list_divider_light" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/Dialog_message_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/custom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc_list_divider_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+
+            <LinearLayout
+                android:id="@+id/layout_positive_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="4dp">
+
+                <Button
+                    android:id="@+id/positive_btn"
+                    style="@style/Dialog_positive_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/button_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/abc_list_divider_light" />
+
+            <LinearLayout
+                android:id="@+id/layout_neutral_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="4dp"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/neutral_btn"
+                    style="@style/Dialog_negative_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/button_separator2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/abc_list_divider_light"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/layout_negative_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="4dp">
+
+                <Button
+                    android:id="@+id/negative_btn"
+                    style="@style/Dialog_negative_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

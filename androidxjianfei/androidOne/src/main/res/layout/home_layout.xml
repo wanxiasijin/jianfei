@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:srlEnableScrollContentWhenLoaded="true"
+        app:srlEnableFooterFollowWhenLoadFinished="true">
+        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srlClassicsSpinnerStyle="Translate"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="建筑废弃物智慧监管平台"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/message"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/iv_message"
+                        android:layout_alignParentRight="true"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_width="10dp"
+                        android:id="@+id/view_message_num"
+                        android:background="@drawable/badge_background"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="10dp" />
+                </RelativeLayout>
+                <com.yyydjk.library.BannerLayout
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:autoPlayDuration="5000"
+                    app:indicatorMargin="10dp"
+                    app:indicatorPosition="rightBottom"
+                    app:indicatorShape="oval"
+                    app:indicatorSpace="3dp"
+                    app:scrollDuration="1100"
+                    app:selectedIndicatorColor="@color/black"
+                    app:selectedIndicatorHeight="6dp"
+                    app:selectedIndicatorWidth="6dp"
+                    app:unSelectedIndicatorColor="#99ffffff"
+                    app:unSelectedIndicatorHeight="6dp"
+                    app:unSelectedIndicatorWidth="6dp" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_one"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/no_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:text="@string/no_data" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="更多消息"
+                    android:gravity="center"
+                    android:id="@+id/tv_more"
+                    android:visibility="invisible"
+                    android:textColor="#17B56C"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#CECECE"
+                    android:layout_height="5dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="#17B56C"
+                        android:layout_height="15dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="本月电子联单签认率"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="95%"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center"
+                        android:id="@+id/tv_number"
+                        android:textColor="#17B56C"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#CECECE"
+                    android:layout_height="5dp"/>
+                <com.android.commonlib.view.flycotablayout.CommonTabLayout
+                    android:id="@+id/commontablayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    tl:tl_iconVisible="false"
+                    tl:tl_textBold="SELECT"
+                    tl:tl_indicator_width="10dp"
+                    tl:tl_indicator_color="@color/green_theam"
+                    tl:tl_textsize="14sp"
+                    tl:tl_textUnselectColor="#020202"
+                    tl:tl_textSelectColor="@color/green_theem3" />
+                <FrameLayout
+                    android:id="@+id/fl_change"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </FrameLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#CECECE"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="电子联单数量变化情况(近4周)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="单位:条" />
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+        </ScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>
+
+
+

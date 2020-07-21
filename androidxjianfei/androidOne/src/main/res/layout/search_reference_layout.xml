@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_10">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/arrow_back" />
+
+        <EditText
+            android:id="@+id/et_toolbar_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/btn_back"
+            android:layout_toLeftOf="@+id/tv_toolbar_search"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:background="@null"
+            android:focusable="true"
+            android:hint="搜索你想要的内容"/>
+
+        <TextView
+            android:id="@+id/tv_toolbar_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="搜索"
+            android:gravity="center"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_record_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_record_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史搜索"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+        <com.chenganrt.smartSupervision.business.exchange.filter.search.SearchLabelContainerView
+            android:id="@+id/record_label_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:screen_width="50"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hot_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_hot_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大家都在搜"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+        <com.chenganrt.smartSupervision.business.exchange.filter.search.SearchLabelContainerView
+            android:id="@+id/hot_label_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:screen_width="100"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_sd"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/item_padding_30"
+        android:text="清除历史"
+        android:textColor="@color/black_sd1"
+        android:textSize="16dp" />
+
+</LinearLayout>

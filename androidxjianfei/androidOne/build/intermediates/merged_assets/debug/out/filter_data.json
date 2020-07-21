@@ -1,0 +1,104 @@
+{
+  "time": [
+    {
+      "tid": -1,
+      "name": "不限",
+      "selected": 1
+    },
+    {
+      "tid": 11,
+      "name": "升序",
+      "selected": 0
+    },
+    {
+      "tid": 12,
+      "name": "降序",
+      "selected": 0
+    }
+  ],
+  "type": [
+    {
+      "tid": -1,
+      "name": "不限",
+      "selected": 1
+    },
+    {
+      "tid": 21,
+      "name": "废弃物供应",
+      "selected": 0
+    },
+    {
+      "tid": 22,
+      "name": "废弃物需求",
+      "selected": 0
+    },
+    {
+      "tid": 23,
+      "name": "综合利用产品供应",
+      "selected": 0
+    },
+    {
+      "tid": 24,
+      "name": "综合利用产品需求",
+      "selected": 0
+    }
+  ],
+  "area": [
+    {
+      "tid": -1,
+      "name": "不限",
+      "selected": 1
+    },
+    {
+      "tid": 312,
+      "name": "南山区",
+      "selected": 0
+    },
+    {
+      "tid": 313,
+      "name": "福田区",
+      "selected": 0
+    },
+    {
+      "tid": 314,
+      "name": "罗湖区",
+      "selected": 0
+    },
+    {
+      "tid": 330,
+      "name": "宝安区",
+      "selected": 0
+    },
+    {
+      "tid": 331,
+      "name": "龙岗区",
+      "selected": 0
+    },
+    {
+      "tid": 332,
+      "name": "龙华新区",
+      "selected": 0
+    },
+    {
+      "tid": 333,
+      "name": "盐田区",
+      "selected": 0
+    },
+    {
+      "tid": 334,
+      "name": "光明新区",
+      "selected": 0
+    },
+    {
+      "tid": 335,
+      "name": "大鹏新区",
+      "selected": 0
+    },
+    {
+      "tid": 336,
+      "name": "坪山新区",
+      "selected": 0
+    }
+
+  ]
+}

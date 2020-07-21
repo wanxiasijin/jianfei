@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_main" />
+
+        <LinearLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_sd"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/px56"
+            android:paddingTop="@dimen/px56"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone">
+
+            <com.chenganrt.smartSupervision.business.electronic.ui.EditTextDel
+                android:id="@+id/ed_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px20"
+                android:layout_marginRight="@dimen/px20"
+                android:layout_weight="1"
+                android:background="@drawable/bg_coners_gray3"
+                android:drawableLeft="@drawable/nav_btn_search_default"
+                android:drawablePadding="@dimen/px16"
+                android:gravity="center_vertical"
+                android:hint="@string/bill_detail_carNoInput"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:paddingBottom="@dimen/px20"
+                android:paddingLeft="@dimen/px20"
+                android:paddingRight="@dimen/px20"
+                android:paddingTop="@dimen/px20"
+                android:textColor="@color/black_sd1"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tvCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/px20"
+                android:paddingLeft="@dimen/px30"
+                android:paddingRight="@dimen/px30"
+                android:paddingTop="@dimen/px20"
+                android:text="取消"
+                android:textColor="@color/green_theam"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.android.commonlib.view.flycotablayout.SlidingTabLayout
+        android:id="@+id/slidingtablayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white_sd"
+        tl:tl_divider_padding="@dimen/px40"
+        tl:tl_indicator_color="@color/green_theam"
+        tl:tl_indicator_corner_radius="1.5dp"
+        tl:tl_indicator_height="3dp"
+        tl:tl_indicator_width="34dp"
+        tl:tl_tab_padding="6dp"
+        tl:tl_tab_space_equal="true"
+        tl:tl_textSelectColor="@color/green_theam"
+        tl:tl_textUnselectColor="@color/text_39"
+        tl:tl_textsize="14sp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

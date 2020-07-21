@@ -1,0 +1,736 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chenganrt.smartSupervision"
+4    android:versionCode="1"
+5    android:versionName="1.0_2020-07-21 14:29:42" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:6:5-8:47
+12        android:name="com.chenganrt.smartSupervision.permission.JPUSH_MESSAGE"
+12-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:7:9-79
+13        android:protectionLevel="signature" />
+13-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:8:9-44
+14
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:10:5-69
+15-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:10:22-66
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:11:5-67
+16-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:12:5-75
+17-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:13:5-76
+18-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:14:5-81
+19-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:15:5-79
+20-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:16:5-81
+21-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:17:5-79
+22-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+23-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:18:5-76
+23-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:18:22-73
+24    <uses-permission android:name="android.permission.SEND" />
+24-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:19:5-63
+24-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:19:22-60
+25    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+25-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:20:5-84
+25-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:20:22-81
+26    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+26-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:21:5-88
+26-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:21:22-85
+27    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+27-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:22:5-85
+27-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:22:22-82
+28    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+28-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:23:5-74
+28-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:23:22-71
+29    <uses-permission android:name="android.permission.BLUETOOTH" />
+29-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:24:5-68
+29-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+30-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:25:5-78
+30-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:25:22-75
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:26:5-64
+31-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:26:22-62
+32
+33    <!-- Required -->
+34    <uses-permission android:name="com.chenganrt.smartSupervision.permission.JPUSH_MESSAGE" />
+34-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:30:5-95
+34-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:30:22-92
+35    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+35-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:31:5-79
+35-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:31:22-76
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:32:5-68
+36-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:32:22-65
+37    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+37-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:12:5-75
+37-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:12:22-72
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+38-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:34:5-80
+38-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:34:22-77
+39    <uses-permission android:name="android.permission.VIBRATE" />
+39-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:35:5-66
+39-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:35:22-63
+40    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+40-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:15:5-79
+40-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:15:22-76
+41    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+41-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:11:5-88
+41-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:11:22-85
+42    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+42-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:15:5-83
+42-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:15:22-80
+43    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+43-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:23:5-73
+43-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:23:22-70
+44    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+44-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:25:5-84
+44-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:25:22-81
+45    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+45-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:34:5-89
+45-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:34:22-86
+46    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+46-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:35:5-79
+46-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:35:22-76
+47
+48    <application
+48-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:39:5-271:19
+49        android:name="com.chenganrt.smartSupervision.business.app.BaseApplication"
+49-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:40:9-53
+50        android:allowBackup="true"
+50-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:41:9-35
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.3.0] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/3f2c00315c51ea9f7f18203fce047cf4/core-1.3.0/AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:icon="@drawable/ic_launcher"
+53-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:42:9-45
+54        android:label="@string/app_name"
+54-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:43:9-41
+55        android:supportsRtl="true"
+55-->[com.github.dongjunkun:BannerLayout:1.0.6] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/4ed9d60307151fe9a8e021986046640b/jetified-BannerLayout-1.0.6/AndroidManifest.xml:13:9-35
+56        android:theme="@style/AppTheme" >
+56-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:44:9-40
+57        <activity
+57-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:46:9-55:20
+58            android:name="com.chenganrt.smartSupervision.business.splash.SplashActivity"
+58-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:47:13-59
+59            android:label="@string/app_name"
+59-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:50:13-45
+60            android:screenOrientation="portrait"
+60-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:49:13-49
+61            android:theme="@style/SplashActivityTheme" >
+61-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:48:13-55
+62            <intent-filter>
+62-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:51:25-54:41
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:52:29-81
+63-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:52:37-78
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:53:29-89
+65-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:53:39-86
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:56:9-61:54
+69            android:name="com.chenganrt.smartSupervision.business.main.MainActivity"
+69-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:57:13-55
+70            android:configChanges="keyboardHidden|locale"
+70-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:58:13-58
+71            android:launchMode="singleTask"
+71-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:59:13-44
+72            android:screenOrientation="portrait"
+72-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:60:13-49
+73            android:windowSoftInputMode="adjustPan" />
+73-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:61:13-52
+74        <activity
+74-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:63:9-68:54
+75            android:name="com.chenganrt.smartSupervision.business.main.MainAppActivity"
+75-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:64:13-58
+76            android:configChanges="keyboardHidden|locale"
+76-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:65:13-58
+77            android:launchMode="singleTask"
+77-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:66:13-44
+78            android:screenOrientation="portrait"
+78-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:67:13-49
+79            android:windowSoftInputMode="adjustPan" />
+79-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:68:13-52
+80        <activity
+80-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:71:9-73:52
+81            android:name="com.chenganrt.smartSupervision.business.exchange.entry.ExchangeActivity"
+81-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:72:13-69
+82            android:screenOrientation="portrait" />
+82-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:73:13-49
+83        <activity
+83-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:74:9-76:52
+84            android:name="com.chenganrt.smartSupervision.business.home.HomeActivity"
+84-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:75:13-55
+85            android:screenOrientation="portrait" />
+85-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:76:13-49
+86        <activity
+86-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:77:9-79:52
+87            android:name="com.chenganrt.smartSupervision.business.home.WebViewActivity"
+87-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:78:13-58
+88            android:screenOrientation="portrait" />
+88-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:79:13-49
+89        <activity
+89-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:80:9-83:53
+90            android:name="com.chenganrt.smartSupervision.business.personal.PersonalCenterActivity"
+90-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:81:13-69
+91            android:screenOrientation="portrait"
+91-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:82:13-49
+92            android:theme="@style/Green_AppTheme" />
+92-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:83:13-50
+93        <activity
+93-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:84:9-86:52
+94            android:name="com.chenganrt.smartSupervision.business.personal.RecommendedShareActivity"
+94-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:85:13-71
+95            android:screenOrientation="portrait" />
+95-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:86:13-49
+96        <activity
+96-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:87:9-89:52
+97            android:name="com.chenganrt.smartSupervision.business.personal.MoreSettingActivity"
+97-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:88:13-66
+98            android:screenOrientation="portrait" />
+98-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:89:13-49
+99        <activity
+99-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:90:9-92:52
+100            android:name="com.chenganrt.smartSupervision.business.personal.AboutMeActivity"
+100-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:91:13-62
+101            android:screenOrientation="portrait" />
+101-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:92:13-49
+102        <activity
+102-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:93:9-95:52
+103            android:name="com.chenganrt.smartSupervision.business.personal.ForgetPasswordActivity"
+103-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:94:13-69
+104            android:screenOrientation="portrait" />
+104-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:95:13-49
+105        <activity
+105-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:96:9-98:52
+106            android:name="com.chenganrt.smartSupervision.business.personal.UserDataActivity"
+106-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:97:13-63
+107            android:screenOrientation="portrait" />
+107-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:98:13-49
+108        <activity
+108-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:99:9-101:52
+109            android:name="com.chenganrt.smartSupervision.business.personal.UserFeedbackActivity"
+109-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:100:13-67
+110            android:screenOrientation="portrait" />
+110-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:101:13-49
+111
+112        <!-- 电子联单 -->
+113        <activity
+113-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:104:9-106:52
+114            android:name="com.chenganrt.smartSupervision.business.electronic.activity.ElectornicActivity"
+114-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:105:13-76
+115            android:screenOrientation="portrait" />
+115-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:106:13-49
+116        <activity
+116-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:107:9-109:52
+117            android:name="com.chenganrt.smartSupervision.business.electronic.activity.AnalyseActivity"
+117-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:108:13-73
+118            android:screenOrientation="portrait" />
+118-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:109:13-49
+119        <activity
+119-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:110:9-112:52
+120            android:name="com.chenganrt.smartSupervision.business.electronic.activity.BillDetailActivity"
+120-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:111:13-76
+121            android:screenOrientation="portrait" />
+121-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:112:13-49
+122        <activity
+122-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:113:9-115:52
+123            android:name="com.chenganrt.smartSupervision.business.electronic.activity.BillExcepActivity"
+123-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:114:13-75
+124            android:screenOrientation="portrait" />
+124-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:115:13-49
+125        <activity
+125-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:116:9-118:52
+126            android:name="com.chenganrt.smartSupervision.business.electronic.activity.RepairActivity"
+126-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:117:13-72
+127            android:screenOrientation="portrait" />
+127-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:118:13-49
+128        <activity
+128-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:119:9-121:52
+129            android:name="com.chenganrt.smartSupervision.business.electronic.activity.RepairAddressActivity"
+129-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:120:13-79
+130            android:screenOrientation="portrait" />
+130-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:121:13-49
+131        <activity
+131-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:122:9-124:52
+132            android:name="com.chenganrt.smartSupervision.business.electronic.activity.SettingActivity"
+132-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:123:13-73
+133            android:screenOrientation="portrait" />
+133-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:124:13-49
+134        <activity
+134-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:125:9-127:52
+135            android:name="com.chenganrt.smartSupervision.business.electronic.activity.SoilQualityActivity"
+135-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:126:13-77
+136            android:screenOrientation="portrait" />
+136-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:127:13-49
+137        <activity
+137-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:128:9-130:52
+138            android:name="com.chenganrt.smartSupervision.business.electronic.activity.VehicleOptActivity"
+138-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:129:13-76
+139            android:screenOrientation="portrait" />
+139-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:130:13-49
+140        <activity
+140-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:131:9-133:52
+141            android:name="com.chenganrt.smartSupervision.business.electronic.activity.WaybillSearchActivity"
+141-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:132:13-79
+142            android:screenOrientation="portrait" />
+142-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:133:13-49
+143
+144        <!-- 土方交换 -->
+145        <activity
+145-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:137:9-139:52
+146            android:name="com.chenganrt.smartSupervision.business.exchange.published.PublishedActivity"
+146-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:138:13-74
+147            android:screenOrientation="portrait" />
+147-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:139:13-49
+148        <activity
+148-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:140:9-143:55
+149            android:name="com.chenganrt.smartSupervision.business.exchange.publish.PublishActivity"
+149-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:141:13-70
+150            android:screenOrientation="portrait"
+150-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:142:13-49
+151            android:windowSoftInputMode="adjustPan" />
+151-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:143:13-52
+152        <activity
+152-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:144:9-146:52
+153            android:name="com.chenganrt.smartSupervision.business.exchange.filter.FilterActivity"
+153-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:145:13-68
+154            android:screenOrientation="portrait" />
+154-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:146:13-49
+155        <activity
+155-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:147:9-149:52
+156            android:name="com.chenganrt.smartSupervision.business.exchange.collect.CollectedActivity"
+156-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:148:13-72
+157            android:screenOrientation="portrait" />
+157-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:149:13-49
+158        <activity
+158-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:150:9-152:52
+159            android:name="com.chenganrt.smartSupervision.business.exchange.detail.InfoDetailActivity"
+159-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:151:13-72
+160            android:screenOrientation="portrait" />
+160-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:152:13-49
+161
+162        <!-- 登陆 -->
+163        <activity
+163-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:155:9-158:52
+164            android:name="com.chenganrt.smartSupervision.business.login.LoginActivity"
+164-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:156:13-57
+165            android:launchMode="singleTask"
+165-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:157:13-44
+166            android:screenOrientation="portrait" />
+166-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:158:13-49
+167        <activity
+167-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:159:9-161:52
+168            android:name="com.chenganrt.smartSupervision.business.login.RegisterCodeActivity"
+168-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:160:13-64
+169            android:screenOrientation="portrait" />
+169-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:161:13-49
+170        <activity
+170-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:162:9-164:52
+171            android:name="com.chenganrt.smartSupervision.business.login.RegisterActivity"
+171-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:163:13-60
+172            android:screenOrientation="portrait" />
+172-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:164:13-49
+173        <activity
+173-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:165:9-167:52
+174            android:name="com.chenganrt.smartSupervision.business.login.ResetPasswordActivity"
+174-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:166:13-65
+175            android:screenOrientation="portrait" />
+175-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:167:13-49
+176        <activity
+176-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:168:9-170:52
+177            android:name="com.chenganrt.smartSupervision.business.login.AgreementActivity"
+177-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:169:13-61
+178            android:screenOrientation="portrait" />
+178-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:170:13-49
+179
+180        <!-- 百度地图 -->
+181        <activity
+181-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:173:9-175:50
+182            android:name="com.chenganrt.smartSupervision.business.electronic.activity.TrackShowActivity"
+182-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:174:13-75
+183            android:theme="@style/MyActionBar" />
+183-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:175:13-47
+184        <activity
+184-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:178:9-180:52
+185            android:name="com.chenganrt.smartSupervision.business.home.MatchingMessageActivity"
+185-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:179:13-66
+186            android:screenOrientation="portrait" />
+186-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:180:13-49
+187
+188        <!-- 集成alipay begin -->
+189        <activity
+189-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:184:9-189:70
+190            android:name="com.alipay.sdk.app.H5PayActivity"
+190-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:185:13-60
+191            android:configChanges="orientation|keyboardHidden|navigation"
+191-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:186:13-74
+192            android:exported="false"
+192-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:187:13-37
+193            android:screenOrientation="portrait"
+193-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:188:13-49
+194            android:windowSoftInputMode="adjustResize|stateHidden" />
+194-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:189:13-67
+195        <!-- 集成alipay end -->
+196
+197
+198        <!-- 版本更新服务 -->
+199        <service android:name="com.chenganrt.smartSupervision.utils.VersionUpdateService" />
+199-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:193:9-63
+199-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:193:18-60
+200
+201        <receiver
+201-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:195:9-211:20
+202            android:name="com.chenganrt.smartSupervision.business.app.JPushReceiver"
+202-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:196:13-85
+203            android:enabled="true" >
+203-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:197:13-35
+204            <intent-filter>
+204-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:198:13-210:29
+205
+206                <!-- Required 用户注册SDK的intent -->
+207                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+207-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:200:17-79
+207-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:200:25-76
+208                <!-- Required 用户接收SDK消息的intent -->
+209                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+209-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:202:17-83
+209-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:202:25-80
+210                <!-- Required 用户接收SDK通知栏信息的intent -->
+211                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+211-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:204:17-88
+211-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:204:25-85
+212                <!-- Required 用户打开自定义通知栏的intent -->
+213                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+213-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:206:17-86
+213-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:206:25-83
+214                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+215                <action android:name="cn.jpush.android.intent.CONNECTION" />
+215-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:208:17-77
+215-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:208:25-74
+216
+217                <category android:name="com.chenganrt.smartSupervision" />
+217-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:17-75
+217-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:27-72
+218            </intent-filter>
+219        </receiver>
+220
+221        <!-- Required SDK核心功能 -->
+222        <activity
+222-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:215:9-226:20
+223            android:name="cn.jpush.android.ui.PushActivity"
+223-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:216:13-60
+224            android:configChanges="orientation|keyboardHidden"
+224-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:217:13-63
+225            android:exported="false"
+225-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:218:13-37
+226            android:theme="@android:style/Theme.NoTitleBar" >
+226-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:219:13-60
+227            <intent-filter>
+227-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:220:13-225:29
+228                <action android:name="cn.jpush.android.ui.PushActivity" />
+228-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:221:17-75
+228-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:221:25-72
+229
+230                <category android:name="android.intent.category.DEFAULT" />
+230-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:223:17-76
+230-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:223:27-73
+231                <category android:name="com.chenganrt.smartSupervision" />
+231-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:17-75
+231-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:27-72
+232            </intent-filter>
+233        </activity>
+234
+235        <!-- Required SDK 核心功能 -->
+236        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+237        <service
+237-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:230:9-239:19
+238            android:name="cn.jpush.android.service.PushService"
+238-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:231:13-64
+239            android:enabled="true"
+239-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:62:13-35
+240            android:exported="false"
+240-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:63:13-37
+241            android:process=":pushcore" >
+241-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:232:13-40
+242            <intent-filter>
+242-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:233:13-238:29
+243                <action android:name="cn.jpush.android.intent.REGISTER" />
+243-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:234:17-75
+243-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:234:25-72
+244                <action android:name="cn.jpush.android.intent.REPORT" />
+244-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:235:17-73
+244-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:235:25-70
+245                <action android:name="cn.jpush.android.intent.PushService" />
+245-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:236:17-78
+245-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:236:25-75
+246                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+246-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:237:17-76
+246-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:237:25-73
+247            </intent-filter>
+248        </service>
+249
+250        <!-- Required SDK核心功能 -->
+251        <receiver
+251-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:242:9-253:20
+252            android:name="cn.jpush.android.service.PushReceiver"
+252-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:243:13-65
+253            android:enabled="true"
+253-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:244:13-35
+254            android:exported="false" >
+254-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:90:13-37
+255            <intent-filter android:priority="1000" >
+255-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:245:13-248:29
+255-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:245:28-51
+256                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+256-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:246:17-94
+256-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:246:25-91
+257                <category android:name="com.chenganrt.smartSupervision" />
+257-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:17-75
+257-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:27-72
+258            </intent-filter>
+259            <intent-filter>
+259-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:249:13-252:29
+260                <action android:name="android.intent.action.USER_PRESENT" />
+260-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:250:17-77
+260-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:250:25-74
+261                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+261-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:251:17-79
+261-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:251:25-76
+262            </intent-filter>
+263            <!-- Optional -->
+264            <intent-filter>
+264-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:100:13-105:29
+265                <action android:name="android.intent.action.PACKAGE_ADDED" />
+265-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:101:17-78
+265-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:101:25-75
+266                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+266-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:102:17-80
+266-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:102:25-77
+267
+268                <data android:scheme="package" />
+268-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:104:17-50
+268-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:104:23-47
+269            </intent-filter>
+270        </receiver>
+271
+272        <meta-data
+272-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:255:9-257:49
+273            android:name="JPUSH_CHANNEL"
+273-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:256:13-41
+274            android:value="developer-default" />
+274-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:257:13-46
+275        <!-- 测试AppKey -->
+276        <meta-data
+276-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:259:9-261:56
+277            android:name="JPUSH_APPKEY"
+277-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:260:13-40
+278            android:value="0c34fc18780c45685d21ceba" />
+278-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:261:13-53
+279
+280        <!-- baidu map -->
+281        <meta-data
+281-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:264:9-266:64
+282            android:name="com.baidu.lbsapi.API_KEY"
+282-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:265:13-52
+283            android:value="5571EljbgcrRc7XFAH1w9hfpjvSMEAFj" />
+283-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:266:13-61
+284        <meta-data
+284-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:268:9-270:35
+285            android:name="android.max_aspect"
+285-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:269:13-46
+286            android:value="2.1" />
+286-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:270:13-32
+287
+288        <provider
+288-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:12:9-20:20
+289            android:name="com.luck.picture.lib.PictureFileProvider"
+289-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:13:13-68
+290            android:authorities="com.chenganrt.smartSupervision.provider"
+290-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:14:13-60
+291            android:exported="false"
+291-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:15:13-37
+292            android:grantUriPermissions="true" >
+292-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:16:13-47
+293            <meta-data
+293-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:17:13-19:54
+294                android:name="android.support.FILE_PROVIDER_PATHS"
+294-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:18:17-67
+295                android:resource="@xml/file_paths" />
+295-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:19:17-51
+296        </provider>
+297
+298        <activity
+298-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:22:9-24:55
+299            android:name="com.luck.picture.lib.PictureSelectorActivity"
+299-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:23:13-72
+300            android:windowSoftInputMode="adjustPan" />
+300-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:24:13-52
+301        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+301-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:25:9-80
+301-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:25:19-77
+302        <activity
+302-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:26:9-29:50
+303            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+303-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:27:13-73
+304            android:configChanges="orientation|keyboardHidden|screenSize"
+304-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:28:13-74
+305            android:screenOrientation="sensor" />
+305-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:29:13-47
+306        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+306-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:30:9-88
+306-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:30:19-85
+307        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+307-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:31:9-69
+307-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:31:19-66
+308        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+308-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:32:9-83
+308-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:32:19-80
+309        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+309-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:33:9-82
+309-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:33:19-79
+310        <activity
+310-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:22:9-24:58
+311            android:name="activity.UpdateAppActivity"
+311-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:23:13-54
+312            android:theme="@style/DialogActivityTheme" />
+312-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:24:13-55
+313
+314        <service android:name="util.UpdateAppService" />
+314-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:26:9-57
+314-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:26:18-54
+315
+316        <provider
+316-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:28:9-36:20
+317            android:name="androidx.core.content.FileProvider"
+317-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:29:13-62
+318            android:authorities="com.chenganrt.smartSupervision.fileprovider"
+318-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:30:13-64
+319            android:exported="false"
+319-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:31:13-37
+320            android:grantUriPermissions="true" >
+320-->[com.teprinciple:updateapputils:1.5.1] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml:32:13-47
+321            <meta-data
+321-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:17:13-19:54
+322                android:name="android.support.FILE_PROVIDER_PATHS"
+322-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:18:17-67
+323                android:resource="@xml/update_file_paths" />
+323-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:19:17-51
+324        </provider>
+325        <provider
+325-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:12:9-20:20
+326            android:name="com.just.agentweb.AgentWebFileProvider"
+326-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:13:13-66
+327            android:authorities="com.chenganrt.smartSupervision.AgentWebFileProvider"
+327-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:14:13-72
+328            android:exported="false"
+328-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:15:13-37
+329            android:grantUriPermissions="true" >
+329-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:16:13-47
+330            <meta-data
+330-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:17:13-19:54
+331                android:name="android.support.FILE_PROVIDER_PATHS"
+331-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:18:17-67
+332                android:resource="@xml/web_files_public" />
+332-->[com.github.LuckSiege.PictureSelector:picture_library:v2.2.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/0ce3d5322e37278b846d9725e4bd0f72/jetified-picture_library-v2.2.3/AndroidManifest.xml:19:17-51
+333        </provider>
+334
+335        <activity
+335-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:22:9-29:20
+336            android:name="com.just.agentweb.ActionActivity"
+336-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:23:13-60
+337            android:configChanges="keyboardHidden|orientation|screenSize"
+337-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:24:13-74
+338            android:exported="false"
+338-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:25:13-37
+339            android:launchMode="standard"
+339-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:26:13-42
+340            android:theme="@style/actionActivity"
+340-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:27:13-50
+341            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+341-->[com.just.agentweb:agentweb:4.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/591833985d6e63c192a797837de67606/jetified-agentweb-4.1.3/AndroidManifest.xml:28:13-72
+342        </activity> <!-- Rich push 核心功能 since 2.0.6 -->
+343        <activity
+343-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:40:9-43:52
+344            android:name="cn.jpush.android.ui.PopWinActivity"
+344-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:41:13-62
+345            android:exported="false"
+345-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:42:13-37
+346            android:theme="@style/MyDialogStyle" /> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+346-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:43:13-49
+347        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+348        <service
+348-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:75:9-84:19
+349            android:name="cn.jpush.android.service.DaemonService"
+349-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:76:13-66
+350            android:enabled="true"
+350-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:77:13-35
+351            android:exported="true" >
+351-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:78:13-36
+352            <intent-filter>
+352-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:79:13-83:29
+353                <action android:name="cn.jpush.android.intent.DaemonService" />
+353-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:80:17-80
+353-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:80:25-77
+354
+355                <category android:name="com.chenganrt.smartSupervision" />
+355-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:17-75
+355-->/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/AndroidManifest.xml:209:27-72
+356            </intent-filter>
+357        </service> <!-- Required SDK核心功能 -->
+358        <receiver
+358-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:109:9-111:40
+359            android:name="cn.jpush.android.service.AlarmReceiver"
+359-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:110:13-66
+360            android:exported="false" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+360-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:111:13-37
+361        <provider
+361-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:113:9-116:40
+362            android:name="cn.jpush.android.service.DataProvider"
+362-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:114:13-65
+363            android:authorities="com.chenganrt.smartSupervision.DataProvider"
+363-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:115:13-64
+364            android:exported="false" /> <!-- since 3.1.0 Required SDK 核心功能 -->
+364-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:116:13-37
+365        <provider
+365-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:118:9-121:39
+366            android:name="cn.jpush.android.service.DownloadProvider"
+366-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:119:13-69
+367            android:authorities="com.chenganrt.smartSupervision.DownloadProvider"
+367-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:120:13-68
+368            android:exported="true" />
+368-->[cn.jiguang.sdk:jpush:3.1.3] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/f9b28de434fa698f039171a831540c45/jpush-3.1.3/AndroidManifest.xml:121:13-36
+369
+370        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+370-->[com.liulishuo.filedownloader:library:1.6.8] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/addf4fd05dbd85b2936b93af5cb39b77/library-1.6.8/AndroidManifest.xml:12:9-118
+370-->[com.liulishuo.filedownloader:library:1.6.8] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/addf4fd05dbd85b2936b93af5cb39b77/library-1.6.8/AndroidManifest.xml:12:18-115
+371        <service
+371-->[com.liulishuo.filedownloader:library:1.6.8] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/addf4fd05dbd85b2936b93af5cb39b77/library-1.6.8/AndroidManifest.xml:13:9-15:49
+372            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+372-->[com.liulishuo.filedownloader:library:1.6.8] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/addf4fd05dbd85b2936b93af5cb39b77/library-1.6.8/AndroidManifest.xml:14:13-108
+373            android:process=":filedownloader" />
+373-->[com.liulishuo.filedownloader:library:1.6.8] /Users/tanlin/.gradle/caches/transforms-2/files-2.1/addf4fd05dbd85b2936b93af5cb39b77/library-1.6.8/AndroidManifest.xml:15:13-46
+374    </application>
+375
+376</manifest>

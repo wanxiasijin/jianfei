@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="wheelview">
+        <attr name="gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColorOut" format="color"/>
+        <attr name="textColorCenter" format="color"/>
+        <attr name="dividerColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="FilterTabView">
+        <attr name="tab_text_select_color" format="color"/>
+        <attr name="tab_text_unselect_color" format="color"/>
+        <attr name="tab_arrow_select_color" format="color"/>
+        <attr name="tab_arrow_unselect_color" format="color"/>
+        <attr name="tab_text_style" format="integer"/>
+        <attr name="color_main" format="color"/>
+        <attr name="btn_stroke_select_color" format="color"/>
+        <attr name="btn_stroke_unselect_color" format="color"/>
+        <attr name="btn_solid_select_color" format="color"/>
+        <attr name="btn_solid_unselect_color" format="color"/>
+        <attr name="btn_corner_radius" format="dimension"/>
+        <attr name="btn_text_select_color" format="color"/>
+        <attr name="btn_text_unselect_color" format="color"/>
+        <attr name="column_num" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="FilterLabelView">
+        <attr name="screen_width" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CalendarViewStyle">
+        <attr name="calendarTextSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedLineColor" format="color" />
+    </declare-styleable>
+</resources>

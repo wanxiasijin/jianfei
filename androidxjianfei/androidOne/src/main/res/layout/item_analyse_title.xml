@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@color/white_sd"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/px30"
+    android:paddingTop="@dimen/px30">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/px40"
+            android:text="日期"
+            android:textColor="@color/black_sd1"
+            android:textSize="@dimen/px30" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:paddingLeft="@dimen/px5"
+            android:paddingRight="@dimen/px5"
+            android:text="待签认"
+            android:textColor="@color/black_sd1"
+            android:textSize="@dimen/px30" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:paddingLeft="@dimen/px5"
+            android:paddingRight="@dimen/px5"
+            android:text="已确认"
+            android:textColor="@color/black_sd1"
+            android:textSize="@dimen/px30" />
+
+        <TextView
+            android:id="@+id/title_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:paddingLeft="@dimen/px5"
+            android:paddingRight="@dimen/px5"
+            android:text="已取消"
+            android:textColor="@color/black_sd1"
+            android:textSize="@dimen/px30" />
+
+        <TextView
+            android:id="@+id/title_except"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:paddingLeft="@dimen/px5"
+            android:paddingRight="@dimen/px5"
+            android:singleLine="true"
+            android:text="土质异常"
+            android:textColor="@color/black_sd1"
+            android:textSize="@dimen/px30" />
+
+        <TextView
+            android:id="@+id/title_unsign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:paddingLeft="@dimen/px5"
+            android:paddingRight="@dimen/px5"
+            android:text="未签认"
+            android:singleLine="true"
+            android:textColor="@color/black_sd1"
+            android:textSize="@dimen/px30" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/px10"
+        android:drawableRight="@drawable/drop_image"
+        android:gravity="right"
+        android:paddingRight="@dimen/px16"
+        android:singleLine="true"
+        android:text="签认率"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+
+</LinearLayout>

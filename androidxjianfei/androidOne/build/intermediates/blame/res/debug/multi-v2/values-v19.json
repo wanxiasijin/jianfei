@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/res/values-v19/dimens.xml",
+                    "from": {
+                        "startLines": "7,8,5,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "224,285,168,58",
+                        "endColumns": "59,60,52,48",
+                        "endOffsets": "279,341,216,102"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,115,176,229",
+                        "endColumns": "59,60,52,48",
+                        "endOffsets": "110,171,224,273"
+                    }
+                },
+                {
+                    "source": "/Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/src/main/res/values-v19/styles.xml",
+                    "from": {
+                        "startLines": "3,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,315",
+                        "endLines": "5,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "309,508"
+                    },
+                    "to": {
+                        "startLines": "6,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "278,420",
+                        "endLines": "8,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "415,613"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/select_frame_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/fram_reset_but"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4F4F4"
+            android:text="重置"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/fram_ok_but"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/colorPrimary"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_waste_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_waste_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="废弃物种类"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+        <com.chenganrt.smartSupervision.business.exchange.filter.search.SearchLabelContainerView
+            android:id="@+id/waste_type_label_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:screen_width="300"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/ll_waste_type"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="综合利用产品信息"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+        <com.chenganrt.smartSupervision.business.exchange.filter.search.SearchLabelContainerView
+            android:id="@+id/info_label_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:screen_width="300"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/ll_info"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布时间"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+        <com.chenganrt.smartSupervision.business.exchange.filter.search.SearchLabelContainerView
+            android:id="@+id/time_label_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:screen_width="300"/>
+    </LinearLayout>
+</RelativeLayout>

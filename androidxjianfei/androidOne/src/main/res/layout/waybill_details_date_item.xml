@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/time"
+        android:drawablePadding="@dimen/px20"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/px20"
+        android:paddingLeft="15dp"
+        android:paddingTop="@dimen/px30"
+        android:text="时间信息"
+        android:textColor="@color/black_sd1"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/px20"
+        android:paddingLeft="@dimen/px56">
+
+
+        <TextView
+            android:id="@+id/tv_push_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="推送"
+            android:textColor="@color/text_63"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:id="@+id/tv_reciver_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="接收"
+            android:textColor="@color/text_63"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="截止"
+            android:textColor="@color/text_63"
+            android:textSize="@dimen/text_14" />
+    </LinearLayout>
+
+</LinearLayout>

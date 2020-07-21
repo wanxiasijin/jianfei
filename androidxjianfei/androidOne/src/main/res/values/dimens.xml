@@ -1,0 +1,323 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="item_padding_5">5dp</dimen>
+    <dimen name="item_padding_10">10dp</dimen>
+    <dimen name="item_padding_15">15dp</dimen>
+    <dimen name="item_padding_20">20dp</dimen>
+    <dimen name="item_padding_30">30dp</dimen>
+    <dimen name="item_padding_40">40dp</dimen>
+    <dimen name="item_margin_5">5dp</dimen>
+    <dimen name="item_margin_10">10dp</dimen>
+    <dimen name="item_margin_15">15dp</dimen>
+    <dimen name="top_margin">15dp</dimen>
+    <dimen name="item_margin_20">20dp</dimen>
+    <dimen name="item_margin_30">30dp</dimen>
+    <dimen name="item_margin_40">40dp</dimen>
+    <dimen name="item_margin_50">50dp</dimen>
+    <dimen name="line_black">0.5dp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="line_2dp">2dp</dimen>
+    <dimen name="line_1dp">1dp</dimen>
+    <dimen name="line_05dp">0.5dp</dimen>
+    <dimen name="blue_btn_width">180dp</dimen>
+    <dimen name="blue_btn_height">40dp</dimen>
+    <dimen name="trade_info_line_space">3dp</dimen>
+
+    <dimen name="property_item_padding">7dp</dimen>
+
+    <dimen name="parent_expandable_list_height">50dp</dimen>
+
+    <dimen name="counter_image_value">50dp</dimen>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">0dp</dimen>
+    <!-- Height of the bottom navigation / system bar. -->
+    <dimen name="navigation_bar_height">48dp</dimen>
+
+    <!-- standard -->
+    <dimen name="px0">0.0dp</dimen>
+    <dimen name="px1">0.4dp</dimen>
+    <dimen name="px2">0.8dp</dimen>
+    <dimen name="px3">1.20dp</dimen>
+    <dimen name="px4">1.6dp</dimen>
+    <dimen name="px5">2.0dp</dimen>
+    <dimen name="px6">2.4dp</dimen>
+    <dimen name="px7">2.80dp</dimen>
+    <dimen name="px8">3.2dp</dimen>
+    <dimen name="px9">3.6dp</dimen>
+    <dimen name="px10">4.0dp</dimen>
+    <dimen name="px11">4.4dp</dimen>
+    <dimen name="px12">4.8dp</dimen>
+    <dimen name="px13">5.2dp</dimen>
+    <dimen name="px14">5.6dp</dimen>
+    <dimen name="px15">6.0dp</dimen>
+    <dimen name="px16">6.4dp</dimen>
+    <dimen name="px17">6.8dp</dimen>
+    <dimen name="px18">7.2dp</dimen>
+    <dimen name="px19">7.6dp</dimen>
+    <dimen name="px20">8.0dp</dimen>
+    <dimen name="px21">8.4dp</dimen>
+    <dimen name="px22">8.8dp</dimen>
+    <dimen name="px23">9.2dp</dimen>
+    <dimen name="px24">9.6dp</dimen>
+    <dimen name="px25">10.0dp</dimen>
+    <dimen name="px26">10.4dp</dimen>
+    <dimen name="px27">10.8dp</dimen>
+    <dimen name="px28">11.2dp</dimen>
+    <dimen name="px29">11.6dp</dimen>
+    <dimen name="px30">12.0dp</dimen>
+    <dimen name="px31">12.4dp</dimen>
+    <dimen name="px32">12.8dp</dimen>
+    <dimen name="px33">13.2dp</dimen>
+    <dimen name="px34">13.6dp</dimen>
+    <dimen name="px35">14.0dp</dimen>
+    <dimen name="px36">14.4dp</dimen>
+    <dimen name="px37">14.8dp</dimen>
+    <dimen name="px38">15.2dp</dimen>
+    <dimen name="px39">15.6dp</dimen>
+    <dimen name="px40">16.0dp</dimen>
+    <dimen name="px41">16.4dp</dimen>
+    <dimen name="px42">16.8dp</dimen>
+    <dimen name="px43">17.2dp</dimen>
+    <dimen name="px44">17.6dp</dimen>
+    <dimen name="px45">18.0dp</dimen>
+    <dimen name="px46">18.4dp</dimen>
+    <dimen name="px47">18.8dp</dimen>
+    <dimen name="px48">19.2dp</dimen>
+    <dimen name="px49">19.6dp</dimen>
+    <dimen name="px50">20.0dp</dimen>
+    <dimen name="px51">20.4dp</dimen>
+    <dimen name="px52">20.8dp</dimen>
+    <dimen name="px53">21.2dp</dimen>
+    <dimen name="px54">21.6dp</dimen>
+    <dimen name="px55">22.0dp</dimen>
+    <dimen name="px56">22.4dp</dimen>
+    <dimen name="px57">22.8dp</dimen>
+    <dimen name="px58">23.2dp</dimen>
+    <dimen name="px59">23.6dp</dimen>
+    <dimen name="px60">24.0dp</dimen>
+    <dimen name="px61">24.4dp</dimen>
+    <dimen name="px62">24.8dp</dimen>
+    <dimen name="px63">25.2dp</dimen>
+    <dimen name="px64">25.6dp</dimen>
+    <dimen name="px65">26.0dp</dimen>
+    <dimen name="px66">26.4dp</dimen>
+    <dimen name="px67">26.8dp</dimen>
+    <dimen name="px68">27.2dp</dimen>
+    <dimen name="px69">27.6dp</dimen>
+    <dimen name="px70">28.0dp</dimen>
+    <dimen name="px71">28.4dp</dimen>
+    <dimen name="px72">28.8dp</dimen>
+    <dimen name="px73">29.2dp</dimen>
+    <dimen name="px74">29.6dp</dimen>
+    <dimen name="px75">30.0dp</dimen>
+    <dimen name="px76">30.4dp</dimen>
+    <dimen name="px77">30.8dp</dimen>
+    <dimen name="px78">31.2dp</dimen>
+    <dimen name="px79">31.6dp</dimen>
+    <dimen name="px80">32.0dp</dimen>
+    <dimen name="px81">32.4dp</dimen>
+    <dimen name="px82">32.8dp</dimen>
+    <dimen name="px83">33.2dp</dimen>
+    <dimen name="px84">33.6dp</dimen>
+    <dimen name="px85">34.0dp</dimen>
+    <dimen name="px86">34.4dp</dimen>
+    <dimen name="px87">34.8dp</dimen>
+    <dimen name="px88">35.2dp</dimen>
+    <dimen name="px89">35.6dp</dimen>
+    <dimen name="px90">36.0dp</dimen>
+    <dimen name="px91">36.4dp</dimen>
+    <dimen name="px92">36.8dp</dimen>
+    <dimen name="px93">37.2dp</dimen>
+    <dimen name="px94">37.6dp</dimen>
+    <dimen name="px95">38.0dp</dimen>
+    <dimen name="px96">38.4dp</dimen>
+    <dimen name="px97">38.8dp</dimen>
+    <dimen name="px98">39.2dp</dimen>
+    <dimen name="px99">39.6dp</dimen>
+    <dimen name="px100">40.0dp</dimen>
+    <dimen name="px101">40.4dp</dimen>
+    <dimen name="px102">40.8dp</dimen>
+    <dimen name="px103">41.2dp</dimen>
+    <dimen name="px104">41.6dp</dimen>
+    <dimen name="px105">42.0dp</dimen>
+    <dimen name="px106">42.4dp</dimen>
+    <dimen name="px107">42.8dp</dimen>
+    <dimen name="px108">43.2dp</dimen>
+    <dimen name="px109">43.6dp</dimen>
+    <dimen name="px110">44.0dp</dimen>
+    <dimen name="px111">44.4dp</dimen>
+    <dimen name="px112">44.8dp</dimen>
+    <dimen name="px113">45.2dp</dimen>
+    <dimen name="px114">45.6dp</dimen>
+    <dimen name="px115">46.0dp</dimen>
+    <dimen name="px116">46.4dp</dimen>
+    <dimen name="px117">46.8dp</dimen>
+    <dimen name="px118">47.2dp</dimen>
+    <dimen name="px119">47.6dp</dimen>
+    <dimen name="px120">48.0dp</dimen>
+    <dimen name="px121">48.4dp</dimen>
+    <dimen name="px122">48.8dp</dimen>
+    <dimen name="px123">49.2dp</dimen>
+    <dimen name="px124">49.6dp</dimen>
+    <dimen name="px125">50.0dp</dimen>
+    <dimen name="px126">50.4dp</dimen>
+    <dimen name="px127">50.8dp</dimen>
+    <dimen name="px128">51.2dp</dimen>
+    <dimen name="px129">51.6dp</dimen>
+    <dimen name="px130">52.0dp</dimen>
+    <dimen name="px131">52.4dp</dimen>
+    <dimen name="px132">52.8dp</dimen>
+    <dimen name="px133">53.2dp</dimen>
+    <dimen name="px134">53.6dp</dimen>
+    <dimen name="px135">54.0dp</dimen>
+    <dimen name="px136">54.4dp</dimen>
+    <dimen name="px137">54.8dp</dimen>
+    <dimen name="px138">55.2dp</dimen>
+    <dimen name="px139">55.6dp</dimen>
+    <dimen name="px140">56.0dp</dimen>
+    <dimen name="px141">56.4dp</dimen>
+    <dimen name="px142">56.8dp</dimen>
+    <dimen name="px143">57.2dp</dimen>
+    <dimen name="px144">57.6dp</dimen>
+    <dimen name="px145">58.0dp</dimen>
+    <dimen name="px146">58.4dp</dimen>
+    <dimen name="px147">58.8dp</dimen>
+    <dimen name="px148">59.2dp</dimen>
+    <dimen name="px149">59.6dp</dimen>
+    <dimen name="px150">60.0dp</dimen>
+    <dimen name="px151">60.4dp</dimen>
+    <dimen name="px152">60.8dp</dimen>
+    <dimen name="px153">61.2dp</dimen>
+    <dimen name="px154">61.6dp</dimen>
+    <dimen name="px155">62.0dp</dimen>
+    <dimen name="px156">62.4dp</dimen>
+    <dimen name="px157">62.8dp</dimen>
+    <dimen name="px158">63.2dp</dimen>
+    <dimen name="px159">63.6dp</dimen>
+    <dimen name="px160">64.0dp</dimen>
+    <dimen name="px161">64.4dp</dimen>
+    <dimen name="px162">64.8dp</dimen>
+    <dimen name="px163">65.2dp</dimen>
+    <dimen name="px164">65.6dp</dimen>
+    <dimen name="px165">66.0dp</dimen>
+    <dimen name="px166">66.4dp</dimen>
+    <dimen name="px167">66.8dp</dimen>
+    <dimen name="px168">67.2dp</dimen>
+    <dimen name="px169">67.6dp</dimen>
+    <dimen name="px170">68.0dp</dimen>
+    <dimen name="px171">68.4dp</dimen>
+    <dimen name="px172">68.8dp</dimen>
+    <dimen name="px173">69.2dp</dimen>
+    <dimen name="px174">69.6dp</dimen>
+    <dimen name="px175">70.0dp</dimen>
+    <dimen name="px176">70.4dp</dimen>
+    <dimen name="px177">70.8dp</dimen>
+    <dimen name="px178">71.2dp</dimen>
+    <dimen name="px179">71.6dp</dimen>
+    <dimen name="px180">72.0dp</dimen>
+    <dimen name="px181">72.4dp</dimen>
+    <dimen name="px182">72.8dp</dimen>
+    <dimen name="px183">73.2dp</dimen>
+    <dimen name="px184">73.6dp</dimen>
+    <dimen name="px185">74.0dp</dimen>
+    <dimen name="px186">74.4dp</dimen>
+    <dimen name="px187">74.8dp</dimen>
+    <dimen name="px188">75.2dp</dimen>
+    <dimen name="px189">75.6dp</dimen>
+    <dimen name="px190">76.0dp</dimen>
+    <dimen name="px191">76.4dp</dimen>
+    <dimen name="px192">76.8dp</dimen>
+    <dimen name="px193">77.2dp</dimen>
+    <dimen name="px194">77.6dp</dimen>
+    <dimen name="px195">78.0dp</dimen>
+    <dimen name="px196">78.4dp</dimen>
+    <dimen name="px197">78.8dp</dimen>
+    <dimen name="px198">79.2dp</dimen>
+    <dimen name="px199">79.6dp</dimen>
+    <dimen name="px200">80.0dp</dimen>
+    <dimen name="px300">120.0dp</dimen>
+
+    <item name="Dialog_inset_left" type="dimen">25dp</item>
+    <item name="Dialog_inset_right" type="dimen">25dp</item>
+    <item name="QRCode_full_padding" type="dimen">40dp</item>
+    <item name="withhold_way_height" type="dimen">48dp</item>
+    <item name="password_text_radius" type="dimen">4dp</item>
+    <item name="password_text_hint_height" type="dimen">3dp</item>
+    <item name="space_8" type="dimen">8dp</item>
+    <item name="space_20" type="dimen">20dp</item>
+    <item name="space_2_6" type="dimen">2.6dp</item>
+    <item name="status_text_padding" type="dimen">20dp</item>
+
+    <dimen name="bill_supplement_height">16dp</dimen>
+
+    <dimen name="text_size_middle">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+
+    <dimen name="btn_corners">5dp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="line_height">0.5dp</dimen>
+    <dimen name="dialog_corners">5dp</dimen>
+
+    <dimen name="drop_pop_menu_text_size">16sp</dimen>
+    <dimen name="drop_pop_menu_item_height">35dp</dimen>
+    <dimen name="drop_pop_menu_item_horizontal_margin">10dp</dimen>
+    <dimen name="drop_pop_menu_icon_text_margin">10dp</dimen>
+    <dimen name="drop_pop_menu_icon_width">22dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 顶部按钮paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 顶部按钮paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">21sp</dimen>
+    <!-- 选项文字大小 需要配合 bools.xml 的 pickerview_customTextSize 为 true 才有效果-->
+    <dimen name="pickerview_textsize">20sp</dimen>
+
+    <!-- label flow -->
+    <dimen name="label_layout_padding">16dp</dimen>
+    <dimen name="label_margin">10dp</dimen>
+
+    <!-- filter -->
+    <dimen name="tool_bar">44dp</dimen>
+    <dimen name="rv_height">400dp</dimen>
+    <dimen name="btn_corner_radius">4dp</dimen>
+
+</resources>
+ 

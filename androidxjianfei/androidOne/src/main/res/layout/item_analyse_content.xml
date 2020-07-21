@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_sd"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/px20"
+    android:paddingTop="@dimen/px20">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="@dimen/px20"
+        android:text="2019-09-08"
+        android:layout_weight="1"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+
+    <TextView
+        android:id="@+id/tv_sign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="29"
+        android:layout_weight="3"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+
+    <TextView
+        android:id="@+id/tv_signed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="20"
+        android:layout_weight="3"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:text="33"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+
+    <TextView
+        android:id="@+id/tv_except"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="left"
+        android:text="33"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+
+    <TextView
+        android:id="@+id/tv_unsige"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:text="33"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+
+    <TextView
+        android:id="@+id/tv_rate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="right"
+        android:paddingRight="@dimen/px20"
+        android:text="99.99%"
+        android:textColor="@color/black_sd1"
+        android:textSize="@dimen/px30" />
+</LinearLayout>

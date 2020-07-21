@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./androidOne/libs/BaiduLBS_Android.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/androidOne/libs/BaiduLBS_Android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

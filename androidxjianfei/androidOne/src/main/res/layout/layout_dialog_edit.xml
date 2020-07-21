@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="绑定车牌号"
+        android:textColor="@color/text_39"
+        android:textSize="@dimen/text_16" />
+
+    <EditText
+        android:id="@+id/et_sim_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_edit"
+        android:hint="请输入车牌号"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColorHint="#b2b2b2"
+        android:textSize="@dimen/text_14" />
+
+    <TextView
+        android:id="@+id/btn_dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_theme_selector"
+        android:gravity="center"
+        android:text="@string/confirmed"
+        android:textColor="@color/white_sd"
+        android:textSize="15dp" />
+</LinearLayout>

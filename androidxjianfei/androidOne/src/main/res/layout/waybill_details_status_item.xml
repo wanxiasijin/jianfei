@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/px34"
+        android:paddingTop="@dimen/px34">
+
+        <TextView
+            android:id="@+id/tv_waybill_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联单编号:"
+            android:textColor="@color/text_50"
+            android:textSize="@dimen/text_16" />
+
+        <TextView
+            android:id="@+id/tv_out_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="出场时间:"
+            android:textColor="@color/text_50"
+            android:textSize="@dimen/text_16" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text=""
+        android:textColor="@color/white_sd" />
+
+</LinearLayout>

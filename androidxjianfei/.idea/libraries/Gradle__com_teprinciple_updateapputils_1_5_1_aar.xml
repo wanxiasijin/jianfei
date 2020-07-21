@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.teprinciple:updateapputils:1.5.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b359dd65343192e8049adcd452c3ff2/jetified-updateapputils-1.5.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.teprinciple/updateapputils/1.5.1/93de8c97a529c46c30b5c6915c25b61913215cbb/updateapputils-1.5.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.teprinciple/updateapputils/1.5.1/9972b638198e96b6fe61d91e8e123ee34b40f0c/updateapputils-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

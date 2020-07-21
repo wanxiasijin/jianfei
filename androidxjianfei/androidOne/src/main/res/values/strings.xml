@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="common_exit">press again to exit the system</string>
+    <string name="common_network_unavailable">currently netwok not available</string>
+    <string name="common_network_error">network problem, please try again later</string>
+    <string name="common_request_error">get data is error, please try it</string>
+    <string name="common_app_version">version：1.0</string>
+    <string name="common_app_copyright">Copyright © 2012 SD, Inc. All Rights Reserved.</string>
+    <string name="common_title_tips">Tips</string>
+    <string name="common_loading_tips">Loading&#8230;</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_cancel">Cancel</string>
+
+    <string name="menu_home_title">首页</string>
+    <string name="menu_category_title">电子签认</string>
+    <string name="menu_collection_title">土方交换</string>
+    <string name="menu_cart_title">个人中心</string>
+    <string name="menu_member_title">更多</string>
+    
+    <string-array name="main_menu_array">
+        <item>product list</item>
+        <item>action list</item>
+        <item>company description</item>
+        <item>about us</item>
+        <item>switch bg</item>
+        <item>switch lang</item>
+    </string-array>
+
+    <string-array name="countries">
+        
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua &amp; Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+         
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burma</item>
+        <item>Burundi</item>
+        
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo, Democratic Republic of the</item>
+        <item>Congo, Republic of the</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'voire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+
+        <item>Gabon</item>
+        <item>Gambia, The</item>
+        <item>Georgia</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        
+        <item>Haiti</item>
+        <item>Holy See</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Korea, North</item>
+        <item>Korea, South</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        
+        <item>Macau</item>
+		<item>Macedonia</item>
+		<item>Madagascar</item>
+		<item>Malawi</item>
+		<item>Malaysia</item>
+		<item>Maldives</item>
+		<item>Mali</item>
+		<item>Malta</item>
+		<item>Marshall Islands</item>
+		<item>Mauritania</item>
+		<item>Mauritius</item>
+		<item>Mexico</item>
+		<item>Micronesia</item>
+		<item>Moldova</item>
+		<item>Monaco</item>
+		<item>Mongolia</item>
+		<item>Montenegro</item>
+		<item>Morocco</item>
+		<item>Mozambique</item>
+		
+        <item>Namibia</item>
+		<item>Nauru</item>
+		<item>Nepal</item>
+		<item>Netherlands</item>
+		<item>Netherlands Antilles</item>
+		<item>New Zealand</item>
+		<item>Nicaragua</item>
+		<item>Niger</item>
+		<item>Nigeria</item>
+		<item>North Korea</item>
+		<item>Norway</item>
+		
+        <item>Oman</item>
+        
+        <item>Pakistan</item>
+		<item>Palau</item>
+		<item>Palestinian Territories</item>
+		<item>Panama</item>
+		<item>Papua New Guinea</item>
+		<item>Paraguay</item>
+		<item>Peru</item>
+		<item>Philippines</item>
+		<item>Poland</item>
+		<item>Portugal</item>
+		
+        <item>Qatar</item>
+        
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        
+        <item>Saint Kitts and Nevis</item>
+		<item>Saint Lucia</item>
+		<item>Saint Vincent and the Grenadines</item>
+		<item>Samoa</item>
+		<item>San Marino</item>
+		<item>Sao Tome and Principe</item>
+		<item>Saudi Arabia</item>
+		<item>Senegal</item>
+		<item>Serbia</item>
+		<item>Seychelles</item>
+		<item>Sierra Leone</item>
+		<item>Singapore</item>
+		<item>Slovakia</item>
+		<item>Slovenia</item>
+		<item>Solomon Islands</item>
+		<item>Somalia</item>
+		<item>South Africa</item>
+		<item>South Korea</item>
+		<item>South Sudan</item>
+		<item>Spain</item>
+		<item>Sri Lanka</item>
+		<item>Sudan</item>
+		<item>Suriname</item>
+		<item>Swaziland</item>
+		<item>Sweden</item>
+		<item>Switzerland</item>
+		<item>Syria</item>
+
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand </item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        
+        <item>Yemen</item>
+        
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+    <!--公共-->
+    <string name="app_name">建废</string>
+    <string name="backboard_hing">电子联单应用已经进入后台运行</string>
+    <string name="request_faild">网络不给力，请稍后再试</string>
+    <string name="tokenExcep">Token异常,请重新登录</string>
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="submit">提交</string>
+    <string name="permission_common_rational">该功能需要开启权限</string>
+    <string name="click_to_quit">再按一次退出程序</string>
+    <string name="app_shortIntroduce">深圳市建筑废弃物</string>
+    <string name="app_sysName">签认系统</string>
+    <string name="login_bottom">正在加载</string>
+    <string name="download_excep">下载异常</string>
+    <string name="connection_timeout">连接超时</string>
+    <string name="retry">重试</string>
+    <string name="error">网络异常</string>
+    <string name="permissionSet">你已禁止存储权限,请到手机设置里打开</string>
+    <string name="versioTip">没有可更新版本</string>
+    <string name="updateContetn">电子联单有新版本啦!</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="empty">网络异常,点空白处刷新试试</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no_record">暂无记录</string>
+    <string name="letItGo">下次再说</string>
+    <string name="updateApp">立即升级</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="permission_camera_denied">获取相机权限失败</string>
+    <string name="permission_camera_neverask">相机权限被禁用，请去设置应用中开启</string>
+    <string name="no_more_bottom">已经拉到底了</string>
+    <string name="digit">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890京沪津渝鲁冀晋蒙辽吉黑苏浙皖闽赣豫湘鄂粤桂琼川贵云藏陕甘青宁新港澳台</string>
+    <string name="network_error">网络异常，请检查网络</string>
+
+    <!--首页 忘记密码-->
+    <string name="home_forget_paw">忘记密码</string>
+    <string name="home_forget_mobile">手机号</string>
+    <string name="home_forget_mobileInput">请输入手机号</string>
+    <string name="home_forget_verifiCode">验证码</string>
+    <string name="home_forget_verifiCodeInput">请输入验证码</string>
+    <string name="home_forget_verifiCodeSend">验证码已发送</string>
+
+    <!--首页-->
+    <string name="home_statuesFormat">%1$s\n%2$s</string>
+    <string name="home_confirm">待签认</string>
+    <string name="home_canceled">已取消</string>
+    <string name="home_signed">已确认</string>
+    <string name="home_unsigned">未签认</string>
+    <string name="home_auto">自动确认</string>
+    <string name="home_except">土质异常</string>
+    <string name="home_unfinish">未完成</string>
+    <string name="home_finished">已完成</string>
+    <string name="home_push">接收时间:&#160;&#160;%1$s</string>
+    <string name="home_comfirm">确认时间:&#160;&#160;%1$s</string>
+    <string name="home_cancel">取消时间:&#160;&#160;%1$s</string>
+    <string name="home_report">上报时间:&#160;&#160;%1$s</string>
+    <string name="home_sure">确认时间:&#160;&#160;%1$s</string>
+
+    <!--首页 重置密码-->
+    <string name="home_reset_paw">重置密码</string>
+
+    <!--关于-->
+    <string name="about_us_title">关于我们</string>
+
+    <!--设置-->
+    <string name="set_title">设置</string>
+
+    <!--异常上报-->
+    <string name="exception_title">异常处理</string>
+    <string name="exception_description">详情描述</string>
+    <string name="exception_des_hint">请描述异常信息(不超过200字)</string>
+
+    <!--图片上传-->
+    <string name="upload_image">已上传图片</string>
+    <string name="except_type_select">请选择异常类型</string>
+    <string name="photo_driver">司机图片</string>
+    <string name="photo_vehicle">车牌图片</string>
+    <string name="photo_soil">异常土质图片</string>
+    <string name="soil_save_tip">拍摄要求：拍摄图片必须清晰可见，不得有遮挡物，异常土质需现场封存提样检测。</string>
+    <string name="photo_not_exist">照片不存在,请重新拍照</string>
+    <string name="uploade_compressing">正在压缩图片</string>
+    <string name="uploade_compress_fail">您的照片超过大小限制，请重新上传</string>
+    <string name="uploade_image_success">图片已上传</string>
+
+    <!--消息提醒-->
+    <string name="message_title">消息提醒</string>
+    <string name="message_carNoFormat">车牌号:%1$s</string>
+    <string name="message_billNoFormat">联单编号:%1$s</string>
+    <string name="message_totalNum">共%1$s条信息,&lt;font color=0x23b781&gt;%2$s&lt;/font&gt;条未处理</string>
+
+    <!--运单详情-->
+    <string name="bill_detail_title">联单详情</string>
+    <string name="bill_detail_submitTip">是否确认车牌号%1$s车辆本次运输非弃土?</string>
+    <string name="bill_detail_subupTip">提交后不可以修改</string>
+    <string name="bill_detail_subsureTip">确认并提交信息?</string>
+    <string name="bill_detail_billCancel">取消联单</string>
+    <string name="bill_detail_billSure">确认联单</string>
+    <string name="bill_detail_billGiveUp">非废弃物联单</string>
+    <string name="bill_detail_exception">异常处理</string>
+    <string name="bill_detail_timePush">推送时间:&#160;&#160;%1$s</string>
+    <string name="bill_detail_timeReciver">接收时间:&#160;&#160;%1$s</string>
+    <string name="bill_detail_timeEnd">截止时间:&#160;&#160;%1$s</string>
+    <string name="bill_detail_timeSure">确认时间:&#160;&#160;%1$s</string>
+    <string name="bill_detail_timeCancel">取消时间:&#160;&#160;%1$s</string>
+    <string name="bill_detail_report">上报时间:&#160;&#160;%1$s</string>
+    <string name="bill_detail_sure">确认时间:&#160;&#160;%1$s</string>
+
+    <string name="soil_except">土质异常上报</string>
+    <string name="soil_except_bill">土质异常</string>
+    <string name="soil_except_type">异常上报类型</string>
+    <string name="soil_type_tip">请选择上报类型</string>
+    <string name="photo_driver_tip">请上传司机图片</string>
+    <string name="photo_vehicle_tip">请上传车牌图片</string>
+    <string name="photo_soil_tip">请上传异常土质图片</string>
+    <string name="soil_photo_tip">只允许现场拍照上传</string>
+    <string name="soil_photo_upload">图片上传</string>
+    <string name="mark">备注</string>
+    <string name="photo_limit">拍照数量已达到上限</string>
+    <string name="progress_uploading">正在上传<xliff:g>%1$s</xliff:g></string>
+    <string name="progress_loading">已上传%1$s</string>
+    <string name="progress_loading_state">正在上传图片%1$s</string>
+
+
+    <!--运单搜索-->
+    <string name="bill_detail_search">联单搜索</string>
+    <string name="bill_detail_carNoInput">请输入车牌号码</string>
+
+    <!--运单详情-->
+    <string name="bill_detail_way">联单详情</string>
+
+    <!--全部运单-->
+    <string name="main_title">全部联单</string>
+
+    <!--补联单-->
+    <string name="repair_title">补联单</string>
+    <string name="vehicle_title">车牌搜索</string>
+    <string name="repair_rubbish_empty">请选择废弃物种类</string>
+    <string name="repair_mount_empty">请输入装载量</string>
+    <string name="repair_vehicle_empty">请选择车牌号</string>
+    <string name="repair_intime_empty">请选择入场时间</string>
+    <string name="repair_outtime_empty">请选择出场时间</string>
+    <string name="repair_timecompary_empty">入场时间不能大于出场时间</string>
+    <string name="repair_twohour_empty">只允许补离场3小时内的电子联单</string>
+    <string name="repair_twohour_distation">请输入终点</string>
+
+    <!--统计分析-->
+    <string name="statis_title">统计分析</string>
+    <string name="statis_today">今天</string>
+    <string name="statis_yestoday">昨天</string>
+    <string name="statis_week">最近7天</string>
+    <string name="statis_more">更多</string>
+    <string name="statis_timeSelect">选择时间</string>
+    <string name="statis_dayOfSelect">按日选择</string>
+    <string name="statis_monOfSelect">按月选择</string>
+    <string name="statis_dateFormat">%1$s\n%2$s</string>
+    <string name="statis_tip">(已确认+已取消)/(待签认+已确认+已取消+未签认)*100%，数据统计按已结束联单进行统计。</string>
+    <string name="statis_tip_except">(已确认+已取消+土质异常)/(待签认+已确认+已取消+未签认+土质异常)*100%，数据统计按已结束联单进行统计。</string>
+    <string name="statis_tip_auto">(已确认+已取消+土质异常)/(待签认+已确认+已取消+自动确认+土质异常)*100%，数据统计按已结束联单进行统计。</string>
+    <string name="statis_tip_auto_noexcept">(已确认+已取消)/(待签认+已确认+已取消+自动确认)*100%，数据统计按已结束联单进行统计。</string>
+
+
+    <string name="exit">退出登录</string>
+    <string name="cancel">取消</string>
+    <string name="confirmed">确认</string>
+    <string name="get_code">获取验证码</string>
+    <string name="to_be_confirmed">待确认</string>
+    <string name="loading_amount">装载量:</string>
+    <string name="waste_types">废弃物种类:</string>
+    <string name="loading">加载中...</string>
+    <string name="binding_number">绑定车牌号</string>
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="resetpassword_prompt">提示：\n\n1.密码长度需为8位至16位，且密码内需包含大写字母、小写字母、数字和特殊字符。\n\n2.必须90天更新一次密码。</string>
+    <string name="app_defend_tip">系统正在升级，可能会影响使用，是否继续?</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <!-- 土方交换 -->
+    <string name="publish_mes">发布信息</string>
+    <string name="my_mes">我发布的</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="supply_and_demand">供需\n统计</string>
+    <string name="supply_and_demand1">供需统计建筑废弃物供应量453万方总需求量611万方</string>
+    <string name="supply_and_demand2">综合利用产品供应量1000万方总需求量223万方</string>
+
+    <!-- pickerview -->
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+    <!-- twinkling refresh layout-->
+    <string name="twinkling_refresh_layout_refreshing">正在刷新</string>
+    <string name="twinkling_refresh_layout_pull_to_refresh">下拉刷新</string>
+    <string name="twinkling_refresh_layout_release_to_refresh">释放立即刷新</string>
+    <string name="twinkling_refresh_layout_success_refresh">刷新成功</string>
+    <string name="twinkling_refresh_layout_failure_refresh">刷新失败</string>
+    <string name="twinkling_refresh_layout_loading">加载中</string>
+    <string name="twinkling_refresh_layout_load_no_more">暂时没有更多内容</string>
+
+    <item name="tag_key_data" type="id" />
+    <item name="tag_key_position" type="id" />
+
+    <string name="area">区域</string>
+    <string name="total_price">总价</string>
+    <string name="house_type">房型</string>
+    <string name="filter">筛选</string>
+    <string name="min_price">最小</string>
+    <string name="max_price">最大</string>
+    <string name="to">至</string>
+    <string name="wan">万</string>
+    <string name="confirm">确定</string>
+    <string name="all_empty">请输入价格</string>
+    <string name="min_empty">没有输入最小值无法计算</string>
+    <string name="max_empty">没有输入最大值无法计算</string>
+    <string name="min_max">最小值不能大于最大值</string>
+    <string name="reset">重置</string>
+    <string name="clean">清除</string>
+
+
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">电子联单</string>
+    <string name="title_notifications">土方交换</string>
+    <string name="title_personal">个人中心</string>
+</resources>

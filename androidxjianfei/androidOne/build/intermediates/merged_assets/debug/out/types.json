@@ -1,0 +1,122 @@
+{
+  "data": [
+    {
+      "code": "construction_waste",
+      "children": [
+        {
+          "code": "engineering_dregs",
+          "children": [],
+          "name": "工程渣土"
+        },
+        {
+          "code": "engineering_mud",
+          "children": [],
+          "name": "工程泥浆"
+        },
+        {
+          "code": "build_waste",
+          "children": [],
+          "name": "施工废弃物"
+        },
+        {
+          "code": "demolition_waste",
+          "children": [],
+          "name": "拆除废弃物"
+        },
+        {
+          "code": "renovation_waste",
+          "children": [],
+          "name": "装修废弃物"
+        }
+      ],
+      "name": "建筑废弃物"
+    },
+    {
+      "code": "comprehensive_utilization",
+      "children": [
+        {
+          "code": "recycled_aggregate_concrete",
+          "children": [],
+          "name": "再生骨料混泥土"
+        },
+        {
+          "code": "recycled_aggregate_mortar",
+          "children": [],
+          "name": "再生骨料混砂浆"
+        },
+        {
+          "code": "recycled_products_masonry_block",
+          "children": [],
+          "name": "砌体块材料再生产品"
+        },
+        {
+          "code": "plate_recycling_products",
+          "children": [],
+          "name": "板材类再生产品"
+        },
+        {
+          "code": "recycled_aggregate",
+          "children": [],
+          "name": "再生骨料"
+        }
+      ],
+      "name": "综合利用产品"
+    },
+    {
+      "code": "area",
+      "children": [
+        {
+          "code": "lhq",
+          "children": [],
+          "name": "罗湖区"
+        },
+        {
+          "code": "ftq",
+          "children": [],
+          "name": "福田区"
+        },
+        {
+          "code": "nsq",
+          "children": [],
+          "name": "南山区"
+        },
+        {
+          "code": "baq",
+          "children": [],
+          "name": "宝安区"
+        },
+        {
+          "code": "ytq",
+          "children": [],
+          "name": "盐田区"
+        },
+        {
+          "code": "ytq",
+          "children": [],
+          "name": "龙岗区"
+        },
+        {
+          "code": "lhxq",
+          "children": [],
+          "name": "龙华新区"
+        },
+        {
+          "code": "gpxq",
+          "children": [],
+          "name": "光明新区"
+        },
+        {
+          "code": "dpxq",
+          "children": [],
+          "name": "大鹏新区"
+        },
+        {
+          "code": "psxq",
+          "children": [],
+          "name": "坪山新区"
+        }
+      ],
+      "name": "地区"
+    }
+  ]
+}

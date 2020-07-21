@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./androidOne/libs/alipayutdid.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/androidOne/libs/alipayutdid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

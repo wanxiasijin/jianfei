@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">24dp</dimen>
+    <!-- Height of the bottom navigation / system bar. -->
+    <dimen name="navigation_bar_height">48dp</dimen>
+
+    <item name="Dialog_inset_left" type="dimen">25dp</item>
+    <item name="Dialog_inset_right" type="dimen">25dp</item>
+
+</resources>

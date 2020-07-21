@@ -1,0 +1,4 @@
+# Referenced at /Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/build/intermediates/merged_manifests/debug/AndroidManifest.xml:48
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/tanlin/Desktop/androidx/androidxjianfei/androidOne/build/intermediates/merged_manifests/debug/AndroidManifest.xml:48
+-keep class com.chenganrt.smartSupervision.business.app.BaseApplication { <init>(); }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_coners_white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/px40">
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/px30"
+        android:text="正在上传图片0%"
+        android:textColor="@color/black_sd1"
+        android:textSize="16dp" />
+
+    <!--<ProgressBar
+        android:id="@+id/progreBar"
+        style="@style/fileProgressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="@dimen/px30"
+        android:layout_marginRight="@dimen/px30"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/file_pb_bg" />-->
+
+    <com.warkiz.widget.IndicatorSeekBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/px20"
+        android:paddingTop="@dimen/px20"
+        app:isb_max="100"
+        app:isb_min="0"
+        app:isb_progress="0"
+        app:isb_show_indicator="none"
+        app:isb_thumb_size="@dimen/px0"
+        app:isb_tick_marks_size="1dp"
+        app:isb_track_background_color="@color/gray_sd"
+        app:isb_track_progress_color="@color/green_theam" />
+
+</LinearLayout>

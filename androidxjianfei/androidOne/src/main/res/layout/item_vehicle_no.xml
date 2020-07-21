@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_sd"
+        android:layout_marginTop="@dimen/px2"
+        android:paddingBottom="@dimen/px30"
+        android:paddingLeft="@dimen/px30"
+        android:paddingTop="@dimen/px30"
+        android:textSize="@dimen/px35"
+        android:textColor="@color/black_sd2"/>
+
+</LinearLayout>

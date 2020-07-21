@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./androidOne/libs/alipaysecsdk.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/androidOne/libs/alipaysecsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_sub" />
+
+    <LinearLayout
+        android:id="@+id/layout_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_sd"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/px125"
+        android:paddingBottom="@dimen/px78"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/black_sd1"
+            android:layout_marginTop="14dp"
+            android:text="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/iv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/black_sd2"
+            android:layout_marginTop="12dp"
+            android:text="@string/app_name"/>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/iv_official_website"
+        layout="@layout/layout_about_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp" />
+
+    <include
+        android:id="@+id/iv_phone"
+        layout="@layout/layout_about_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp" />
+
+    <include
+        android:id="@+id/iv_company"
+        layout="@layout/layout_about_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp" />
+
+    <include
+        android:id="@+id/iv_address"
+        layout="@layout/layout_about_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp" />
+
+
+</LinearLayout>
